@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+  <title>Amberlea Auffert Photography</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <div>
+      <header>
+        <div id="header">
+          <h1>S E N I O R S</h1>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="process.html">THE PROCESS</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="pictures">
+          <img class="center" src="senior.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior1.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior2.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior3.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior4.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior5.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior6.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior7.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior8.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior9.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior10.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior11.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior12.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior13.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior14.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior15.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior16.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior17.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior18.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior19.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior20.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior21.jpg" alt="classof21" width="auto" height="250"</img>
+          <img class="center" src="senior22.jpg" alt="classof21" width="auto" height="250"</img>
+        </div>
+      </main>
+      <footer>This site was created as part of the Web Development I course at Northwest Missouri State University and was developed to learn and enhance the concepts within that course.  It is not intended for public use.<br>
+      </footer>
+    </div>
+  </body>
+</html>
