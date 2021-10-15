@@ -77,6 +77,7 @@ footer{
   background-color: #F3EDE0;
   color: #30344E;
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 nav ul{
   margin-top: 10px;
@@ -129,16 +130,23 @@ img.center{
   float: left;
   width: 300px;
   padding: 1em;
+  text-align: left;
 }
 #two{
   float: left;
   width: 300px;
   padding: 1em;
+  text-align: center;
 }
 #three{
   float: left;
   width: 300px;
   padding: 1em;
+  text-align: right;
+}
+main p{
+  text-align: center;
+  list-style-type: none;
 }
 .button {
   font: bold 30px Arial;
@@ -152,6 +160,21 @@ img.center{
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   display: inline-block;
+}
+.icon{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.icon:hover{
+  opacity: 0.7;
+}
+.icon{
+  background: #125688
+  color: #FFFFFF;
 }
 @media only screen and (max-width: 768px){
   h1, h2, h3,h4 {
