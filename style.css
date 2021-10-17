@@ -135,26 +135,26 @@ img.center{
 #pictures{
   text-align: center;
 }
-#one, #two, #three {
-  text-align: center;
-}
 #one{
   float: left;
   width: 300px;
   padding: 1em;
   font-family: Courier;
+  text-align: center;
 }
 #two{
   float: left;
   width: 300px;
   padding: 1em;
   font-family: Courier;
+  text-align: center;
 }
 #three{
   float: left;
   width: 300px;
   padding: 1em;
   font-family: Courier;
+  text-align: center;
 }
 main p{
   list-style-type: none;
@@ -171,6 +171,9 @@ main p{
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   display: inline-block;
+}
+div.contactbutton{
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px){
