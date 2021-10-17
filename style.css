@@ -10,6 +10,7 @@ header{
   background-position: bottom;
   background-repeat: repeat-x;
   color: #30344E;
+  font-family: Courier;
 }
 div.gallery {
   margin: 5px;
@@ -44,6 +45,7 @@ main{
   border-style: solid;
   border-color:#43505C;
   padding-top: 0.5em;
+  font-family: brush script MT;
 }
 .information{
   margin-left: 25px;
@@ -53,7 +55,6 @@ h2{
   font-size: 2em;
   margin-top: 0px;
   text-shadow: 2px 2px 2px #FFFFFF;
-  font-family: sans-serif;
   text-align: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -69,6 +70,7 @@ h3{
 h4{
   text-align: center;
   font-size: 1em;
+  font-family: Courier;
 }
 footer{
   font-size: .70em;
@@ -87,6 +89,7 @@ nav ul{
 nav li{
   display: inline-block;
   padding: .5em;
+  font-family: Courier;
 }
 nav a{
   text-decoration: none;
@@ -94,9 +97,12 @@ nav a{
 }
 main a{
   text-decoration: none;
+  font-family: Courier;
+  text-align: center;
 }
 main li{
   margin-right: 25px;
+  font-family: Courier;
 }
 nav a:link{
   color: #43505C
@@ -109,6 +115,9 @@ nav a:focus, nav a:hover{
 }
 nav a:active{
   color:#647381;
+}
+.information{
+  font-family: Courier;
 }
 #header{
   display: block;
@@ -126,26 +135,28 @@ img.center{
 #pictures{
   text-align: center;
 }
+#one, #two, #three {
+  text-align: center;
+}
 #one{
   float: left;
   width: 300px;
   padding: 1em;
-  text-align: left;
+  font-family: Courier;
 }
 #two{
   float: left;
   width: 300px;
   padding: 1em;
-  text-align: center;
+  font-family: Courier;
 }
 #three{
   float: left;
   width: 300px;
   padding: 1em;
-  text-align: right;
+  font-family: Courier;
 }
 main p{
-  text-align: center;
   list-style-type: none;
 }
 .button {
@@ -161,21 +172,7 @@ main p{
   border-left: 1px solid #CCCCCC;
   display: inline-block;
 }
-.icon{
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-.icon:hover{
-  opacity: 0.7;
-}
-.icon{
-  background: #125688
-  color: #FFFFFF;
-}
+
 @media only screen and (max-width: 768px){
   h1, h2, h3,h4 {
     font-size: 100%;
